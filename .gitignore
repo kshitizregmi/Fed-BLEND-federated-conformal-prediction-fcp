@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Heavy LoRA artefacts only — the partitioned dataset and the scoring
+# CSV are checked in so the repo is fully self-contained.
+flower_qwen_lora_outputs/
+*.npz
+*.safetensors
+*.bin
+*.pt
+
+# Local logs
+*.log
+ray_tmp/
