@@ -1,0 +1,7 @@
+coverage,useful_rate,hallucination_rate,avg_set_size,precision_commit,method
+0.8989,0.8063,0.0674,1.1453,0.9229,Global‑LAC
+0.9263,0.7811,0.0611,1.2505,0.9275,Local‑LAC
+1.0,0.1537,0.0,3.0968,1.0,Local‑APS
+0.9263,0.7811,0.0611,1.2505,0.9275,Fed‑DSCP
+0.9221,0.8084,0.0632,1.1874,0.9275,Fed‑Shrink‑v2
+0.9158,0.8168,0.0632,1.1642,0.9282,Fed‑CVAE‑CP (τ=5)
